@@ -1,0 +1,8 @@
+README.md
+bpe.cpp
+bpe_bindings.cpp
+setup.py
+bpe_module.egg-info/PKG-INFO
+bpe_module.egg-info/SOURCES.txt
+bpe_module.egg-info/dependency_links.txt
+bpe_module.egg-info/top_level.txt
