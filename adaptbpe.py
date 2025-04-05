@@ -67,6 +67,8 @@ class AdaptBPETokenizer:
                 "input_ids": input_ids,
                 "attention_mask": attention_mask
             }
+    def __len__(self):
+        return len(self.vocab)
     
     def decode(self, ids: Union[List[int], Tensor]) -> str:
         if isinstance(ids, Tensor):

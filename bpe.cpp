@@ -756,8 +756,8 @@ std::variant<std::vector<std::string>, std::vector<int>> BPE::encode(
             }
             else
             {
-                // Handle unknown tokens with -1
-                token_ids.push_back(-1);
+                // Handle unknown tokens with 0
+                token_ids.push_back(0);
             }
         }
 
